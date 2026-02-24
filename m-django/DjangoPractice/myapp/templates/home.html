@@ -1,0 +1,114 @@
+{% extends "layout.html" %}
+{% block content %}
+<header class="header">
+        <div class="left-section">
+          <div class="logo"><i class="fa-brands fa-instagram"></i></div>
+          <div class="search-bar">
+            <i class="fas fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search Here" />
+          </div>
+        </div>
+
+    <nav class="center-icons">
+        <div class="icon-boxes" data-label="Home">
+            <a href="#"><i class="fa-solid fa-house"></i></a>
+        </div>
+
+        <div class="icon-boxes" data-label="Friends">
+            <a href="#"><i class="fa-solid fa-user-group"></i></a>
+        </div>
+
+        <div class="icon-boxes" data-label="Explore">
+            <a href="#"><i class="fa-regular fa-circle-play"></i></a>
+        </div>
+
+        <div class="icon-boxes" data-label="Groups">
+            <a href="#"><i class="fa-solid fa-users"></i></a>
+        </div>
+
+        <div class="icon-boxes" data-label="Videos">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </nav>
+    <div class="right-icons">
+        <a href="#"><i class="fa-solid fa-gear"></i></a>
+        <a href="#"><i class="fa-regular fa-bell"></i></a>
+        <a href="#"><i class="fa-solid fa-user"></i></a>
+    </div>  
+</header>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <div class="sidebar-menu">
+        <a href="#" class="sidebar-item">
+            <i class="fa-solid fa-user"></i>
+            <span>Profile</span>
+        </a>
+        <a href="#" class="sidebar-item">
+            <i class="fa-solid fa-compass"></i>
+            <span>Explore</span>
+        </a>
+        <a href="#" class="sidebar-item">
+            <i class="fa-solid fa-film"></i>
+            <span>Reels</span>
+        </a>
+        <a href="#" class="sidebar-item">
+            <i class="fa-solid fa-message"></i>
+            <span>Messages</span>
+        </a>
+        <a href="#" class="sidebar-item">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Activity</span>
+        </a>
+        <a href="#" class="sidebar-item">
+            <i class="fa-solid fa-bookmark"></i>
+            <span>Saved</span>
+        </a>
+    </div>
+</div>
+
+<!-- Stories Section -->
+<div class="ig-stories">
+    
+    <!-- <button class="pre1"><i class="fa-solid fa-angle-left"></i></button> -->
+
+    <div class="story">
+        <div class="story-img">
+            <img src="/static/asset/user.jpg" alt="story">
+        </div>
+        <p>Your Story</p>
+    </div>
+
+    <div class="story">
+        <div class="story-img">
+            <img src="/static/asset/user.jpg" alt="story">
+        </div>
+        <p>User 1</p>
+    </div>
+
+    <div class="story">
+        <div class="story-img">
+            <img src="/static/asset/user.jpg" alt="story">
+        </div>
+        <p>User 2</p>
+    </div>
+
+    <div class="story">
+        <div class="story-img">
+            <img src="/static/asset/user.jpg" alt="story">
+        </div>
+        <p>User 3</p>
+    </div>
+
+    <div class="story">
+        <div class="story-img">
+            <img src="/static/asset/user.jpg" alt="story">
+        </div>
+        <p>User 4</p>
+    </div>
+<!-- <button class="nxt1"><i class="fa-solid fa-circle-chevron-right"></i></button> -->
+</div>
+
+
+
+{% endblock %}
